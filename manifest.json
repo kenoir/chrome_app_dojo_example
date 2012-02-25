@@ -2,10 +2,12 @@
   "name": "Scratch_client",
   "version": "0.1",
   "description": "Scratch client.",
-  "browser_action": {
-    "default_icon": "icon.png"
+  "app": {
+    "launch": {
+      "local_path": "main.html"
+    }
   },
-  "permissions": [
-    "http://api.flickr.com/"
-  ]
+  "icons": {
+    "16": "icon.png"
+  }
 }
